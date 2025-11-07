@@ -2,16 +2,18 @@
 <img width="502" height="171" alt="image" src="https://github.com/user-attachments/assets/bb3b982d-f55a-4ed8-9aa1-e2af6e43fa00" />
 
 1.	Project Title
-FileFinder: A Serverless File Management System Using AWS Services
 
-2.	Problem Identification
+FileFinder:
+A Serverless File Management System Using AWS Services
+
+3.	Problem Identification
 In many organizations and educational institutions, storing, searching, and managing digital files securely is a challenge. Traditional file servers or local storage systems require continuous maintenance, scaling effort, and cost. There is also a need for an efficient and accessible platform that allows users to:
 •	Upload files easily.
 •	Search stored files quickly using metadata or file name.
 •	Delete unwanted files securely when no longer needed.
 The problem therefore lies in building a cost-efficient, scalable, and serverless file management system that simplifies operations and provides real-time access to files from anywhere.
 
-3.	Identify and Describe the Suitable AWS Services
+5.	Identify and Describe the Suitable AWS Services
 a)	Amazon S3 (Simple Storage Service)
 •	Durable, highly-available object storage for files/objects (any file type). S3 stores objects in buckets with strong durability guarantees and provides multiple ways to upload and retrieve objects.
 •	Supports features like versioning, server-side encryption, pre-signed URLs, lifecycle rules, and event notifications (S3 → Lambda, S3 → EventBridge).
